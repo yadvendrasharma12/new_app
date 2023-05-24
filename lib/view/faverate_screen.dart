@@ -23,8 +23,6 @@ class _FeverateScreenState extends State<FeverateScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
-
       body: Stack(
         children: <Widget>[
           GoogleMap(
