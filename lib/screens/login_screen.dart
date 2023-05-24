@@ -220,70 +220,67 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                       ),
                       const SizedBox(height: 14,),
-                      Padding(
-                        padding:  const EdgeInsets.symmetric(horizontal:30 ),
-                        child: Center(
-                          child: Row(
-                            children: [
-                              GestureDetector(
-                                onTap: (){},
-                                child: Container(
-                                  height: 65,
-                                  width: 65,
-                                  child: Image.asset("assets/googleg.png"),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(20)),
-                                ),
+                      Center(
+                        child: Row(
+                          children: [
+                            GestureDetector(
+                              onTap: (){},
+                              child: Container(
+                                height: 65,
+                                width: 65,
+                                child: Image.asset("assets/googleg.png"),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20)),
                               ),
-                              GestureDetector(
-                                onTap: (){},
-                                child: Container(
-                                  margin: EdgeInsets.symmetric(horizontal: 10),
-                                  height: 40,
-                                  width: 40,
-                                  child: Image.asset("assets/facebooks.png"),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(20)),
-                                ),
+                            ),
+                            GestureDetector(
+                              onTap: (){},
+                              child: Container(
+                                margin: EdgeInsets.symmetric(horizontal: 10),
+                                height: 40,
+                                width: 40,
+                                child: Image.asset("assets/facebooks.png"),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20)),
                               ),
-                              GestureDetector(
-                                onTap: (){},
-                                child: Container(
-                                  margin: EdgeInsets.symmetric(horizontal: 10),
-                                  height: 40,
-                                  width: 40,
-                                  child: Image.asset("assets/twitter.png"),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(20)),
-                                ),
+                            ),
+                            GestureDetector(
+                              onTap: (){},
+                              child: Container(
+                                margin: EdgeInsets.symmetric(horizontal: 10),
+                                height: 40,
+                                width: 40,
+                                child: Image.asset("assets/twitter.png"),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20)),
                               ),
-                              GestureDetector(
-                                onTap: (){},
-                                child: Container(
-                                  height: 61,
-                                  width: 61,
-                                  child: Image.asset("assets/applelooks.png"),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(20)),
-                                ),
+                            ),
+                            GestureDetector(
+                              onTap: (){},
+                              child: Container(
+                                height: 61,
+                                width: 61,
+                                child: Image.asset("assets/applelooks.png"),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20)),
                               ),
-                              GestureDetector(
-                                onTap: (){
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(builder: (context) => PhoneNumber()),
-                                  );
-                                },
-                                child: Container(
-                                  height: 45,
-                                  width: 45,
-                                  child: Image.asset("assets/phonenumber.png"),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(20)),
-                                ),
+                            ),
+                            GestureDetector(
+                              onTap: (){
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => PhoneNumber()),
+                                );
+                              },
+                              child: Container(
+                                height: 45,
+                                width: 45,
+                                child: Image.asset("assets/phonenumber.png"),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20)),
                               ),
-                            ],
-                          ),
+                            ),
+                          ],
                         ),
                       ),
 

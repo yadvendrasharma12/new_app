@@ -39,7 +39,6 @@ class _ChangePasswordState extends State<ChangePassword> {
           elevation: 0,
         ),
 
-
         body: SafeArea(
           child: SingleChildScrollView(
             child: Form(
@@ -86,7 +85,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                           ],
                         ),
                       ],
-                    ),
+                    )
                   ),
                   Padding(
                     padding:

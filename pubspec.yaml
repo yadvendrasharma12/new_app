@@ -48,6 +48,8 @@ dependencies:
   image_picker: ^0.8.6+3
   flutter_hidden_drawer: ^1.0.1
   pinput: ^2.2.31
+  google_maps_flutter: ^2.2.7
+
 
 dev_dependencies:
   flutter_test:
